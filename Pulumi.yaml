@@ -1,0 +1,7 @@
+name: aws-eks-cs
+runtime: dotnet
+description: An EKS cluster with an nginx service in C#
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/84a5b743-461d-41cb-8cf2-06a75ca3512e.zip
